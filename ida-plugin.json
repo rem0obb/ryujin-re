@@ -1,0 +1,12 @@
+{
+  "IDAMetadataDescriptorVersion": 1,
+  "plugin": {
+    "name": "Ryujin RE",
+    "entryPoint": "gui.py",
+    "categories": ["disassembly-and-processor-modules"],
+    "logoPath": "assets/ryujin.png",
+    "idaVersions": "12.0",
+    "description" : "Remove junk code from Ryujin-packed binaries. Right-click on a function for single-function cleaning.",
+    "version": "0.1"
+  }
+}
