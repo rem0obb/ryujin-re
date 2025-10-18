@@ -22,4 +22,4 @@ python .\cli.py -f DemoObfuscation.ryujin_dump.exe -d
 
 To open in IDA after decryption, you will need to select everything using `CTRL+A` then press `U` to undefine and then `C` and force the analysis of the ryujin section
 
-![](assets/ida-decrypted.png)
+![](assets/ida-decrypted.PNG)
