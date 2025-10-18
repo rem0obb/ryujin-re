@@ -15,7 +15,9 @@ and you can use it within IDA as a plugin as well.
 Simple command using cli to clean junkcode from a function
 
 ```python
-python .\cli.py -f DemoObfuscation.ryujin_dump.exe  --target-ea 140697391191823
+python .\cli.py -f DemoObfuscation.ryujin_dump.exe -d
 ```
 
-![](assets/remove_junkcode.png)
+To open in IDA after decryption, you will need to select everything using `CTRL+A` then press `U` to undefine and then `C` and force the analysis of the ryujin section
+
+![](assets/decrypt.png)
