@@ -18,6 +18,8 @@ Simple command using cli to clean junkcode from a function
 python .\cli.py -f DemoObfuscation.ryujin_dump.exe -d
 ```
 
+![](assets/decrypt.png)
+
 To open in IDA after decryption, you will need to select everything using `CTRL+A` then press `U` to undefine and then `C` and force the analysis of the ryujin section
 
-![](assets/decrypt.png)
+![](assets/ida-decrypted.png)
